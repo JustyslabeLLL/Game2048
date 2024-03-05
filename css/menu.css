@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #2f2f2f;
+    font-family: 'Roboto';
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    font-size: 94px;
+    color: white;
+}
+p {
+    font-size: 28px;
+    color: white;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+    width: 260px;
+}
+.play, .instruction {
+    width: 220px;
+    height: 40px;
+    background-color: grey;
+    margin-top: 14px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+.buttons {
+    margin-top: 20px;
+}

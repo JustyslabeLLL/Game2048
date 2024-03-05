@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>2048</title>
+</head>
+<body>
+    <div class="content">
+		<div class="information">
+			<h2>2048</h2>
+			<div class="score">
+				<p>Cчет</p>
+				<span id="score01">0</span>
+			</div>
+			<div class="refresh">
+				<button type="submit" onClick="refreshPage()">
+					<img src="img/refresh.png">
+				</button>
+			</div>
+			<div class="home">
+				<a href="menu.html">
+					<button type="submit">
+						<img src="img/homepng.png">
+					</button>
+				</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="cell" id="c00"></div>
+			<div class="cell" id="c01"></div>
+			<div class="cell" id="c02"></div>
+			<div class="cell" id="c03"></div>
+
+			<div class="cell" id="c10"></div>
+			<div class="cell" id="c11"></div>
+			<div class="cell" id="c12"></div>
+			<div class="cell" id="c13"></div>
+			
+			<div class="cell" id="c20"></div>
+			<div class="cell" id="c21"></div>
+			<div class="cell" id="c22"></div>
+			<div class="cell" id="c23"></div>
+
+			<div class="cell" id="c30"></div>
+			<div class="cell" id="c31"></div>
+			<div class="cell" id="c32"></div>
+			<div class="cell" id="c33"></div>
+		</div>
+		<div class="gameover" id="gameover">
+			<div class="over">
+				<p>Нееет, ты проиграл!</p>
+				<p>Итого: <span id="score02"></span></p>
+				<a href="javascript:game.start()">Играть снова</a>
+			</div>
+		</div>
+	</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
